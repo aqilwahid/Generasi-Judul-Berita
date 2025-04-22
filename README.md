@@ -12,7 +12,7 @@ Proyek ini merupakan bagian dari **Tugas 3** dalam mata kuliah _Natural Language
 
 1. **Encoder-Decoder berbasis LSTM (tanpa attention)**
 2. **Encoder-Decoder dengan mekanisme Attention**
-3. **Transformer model (full attention)**
+3. **Custom Transformer**
 
 Fokus utamanya adalah menghasilkan **judul berita** dari **konten artikel berita** menggunakan pendekatan NLP modern.
 
@@ -105,11 +105,11 @@ Setiap model akan dilatih pada dataset yang sama menggunakan:
 ### 📌 TODO (Checklist Progress)
 
 - [x] Persiapan struktur repo
-- [ ] Implementasi Encoder-Decoder LSTM
-- [ ] Implementasi LSTM dengan Attention
-- [ ] Implementasi Transformer
-- [ ] Pelatihan ketiga model
-- [ ] Evaluasi Kualitatif dan Kuantitatif
+- [x] Implementasi Encoder-Decoder LSTM
+- [x] Implementasi LSTM dengan Attention
+- [x] Implementasi Transformer
+- [x] Pelatihan ketiga model
+- [x] Evaluasi Kualitatif dan Kuantitatif
 - [ ] Penulisan laporan analisis
 
 ---

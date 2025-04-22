@@ -2,7 +2,7 @@ import requests
 import json
 
 API_KEY = "8711cc39b5ab4cf58b273b8fdbc6580b"
-QUERY = "technology"     
+QUERY = "technology, AI"     
 URL = f"https://newsapi.org/v2/everything?q={QUERY}&language=en&pageSize=100&apiKey={API_KEY}"
 
 def fetch_and_save_articles(file_path='newsapi_articles.json'):
